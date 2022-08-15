@@ -1,11 +1,13 @@
-.l-avatarContainer > * {
-  display: inline;
-  vertical-align: middle;
-  font-size: 1rem;
-  font-weight: $fontWeight-thin;
-  margin-top: 0.5rem;
-}
+// Container for avatar and associated text.
 
-.l-avatarContainer > p {
-  margin-left: 0.75rem;
+.l-avatarContainer {
+  height: 2rem;
+  margin: 0.5rem 0;
+
+  & > * {
+    display: inline;
+    vertical-align: middle;
+    font-size: 1rem;
+    font-weight: $fontWeight-thin;
+  }
 }
