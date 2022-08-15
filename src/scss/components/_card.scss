@@ -1,7 +1,10 @@
 // Card container with rounded corners.
 
 .card {
+  color: $main-paragraph;
   background-color: $card-background;
-  border-radius: $borderRadius;
+  border-radius: $borderRadius-large;
   overflow: hidden;
+  max-width: 300px;
+  padding: 25px;
 }

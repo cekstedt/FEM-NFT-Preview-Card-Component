@@ -8,9 +8,14 @@
   &-header {
     color: $main-heading;
     font-weight: $fontWeight-bold;
+    font-size: 1.37rem;
+    margin: 1.25rem 0;
   }
 
   &-subline {
     color: $main-paragraph;
+    // font-size: 1.12rem;
+    font-weight: $fontWeight-thin;
+    line-height: 1.4;
   }
 }

@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css" />
-  <title>Frontend Mentor | NFT preview card component</title>
-</head>
-<body class="contentContainer">
-  <div class="l-fullPage">
-    <main class="card">
-      <img src="images/image-equilibrium.jpg" alt="Equilibrium">
-      <h1 class="infoBlock infoBlock-header">
-        Equilibrium #3429
-      </h1>
-      <p class="infoBlock infoBlock-subline">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
-      <p class="u-colorAccent">
-        <img src="images/icon-ethereum.svg">
-        0.041 ETH
-      </p>
-      <p>
-        <img src="images/icon-clock.svg">
-        3 days left
-      </p>
-      <hr>
-      <img src="images/image-avatar.png" alt="Jules Wyvern Avatar">
-      <p>Creation of Jules Wyvern</p>
-    </main>
-  </div>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="contentContainer">
+    <div class="l-fullPage">
+      <main class="card">
+        <img
+          src="images/image-equilibrium.jpg"
+          width="300"
+          height="300"
+          alt="Equilibrium"
+          class="l-mainImg"
+        />
+        <h1 class="infoBlock infoBlock-header">
+          Equilibrium #3429
+        </h1>
+        <p class="infoBlock infoBlock-subline">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="l-stats">
+          <p class="u-colorAccent l-stat-currency">
+            <img src="images/icon-ethereum.svg" />
+            0.041 ETH
+          </p>
+          <p class="l-stat-time">
+            <img src="images/icon-clock.svg" />
+            3 days left
+          </p>
+        </div>
+        <hr class="rule" />
+        <img src="images/image-avatar.png" alt="Jules Wyvern Avatar" />
+        <p>Creation of Jules Wyvern</p>
+      </main>
+    </div>
 
-  <footer class="l-fixedBottom">
-    <p class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-        Frontend Mentor
-      </a>
-      . Coded by
-      <a href="https://www.frontendmentor.io/profile/cekstedt">
-        Christopher Ekstedt
-      </a>
-      .
-    </p>
-  </footer>
-</body>
+    <footer class="l-fixedBottom">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a href="https://www.frontendmentor.io/profile/cekstedt">
+          Christopher Ekstedt
+        </a>
+        .
+      </p>
+    </footer>
+  </body>
 </html>
