@@ -1,0 +1,16 @@
+.infoBlock {
+  @media (max-width: $mobile-breakpoint) {
+    text-align: center;
+  }
+
+  // Contains two elements: A header, and a subline.
+
+  &-header {
+    color: $main-heading;
+    font-weight: $fontWeight-bold;
+  }
+
+  &-subline {
+    color: $main-paragraph;
+  }
+}
