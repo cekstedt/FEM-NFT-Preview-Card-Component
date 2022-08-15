@@ -1,11 +1,13 @@
 .l-stats {
   display: flex;
   justify-content: space-between;
-  margin: 1.1rem 0;
+  margin: 1.25rem 0;
+  font-size: 1rem;
 }
 
 .l-stat-currency {
   display: inline;
+  font-weight: $fontWeight-bold;
 }
 
 .l-stat-time {

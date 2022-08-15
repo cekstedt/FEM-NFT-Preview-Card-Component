@@ -5,12 +5,15 @@
 @import "typography";
 
 // Layouts
+@import "layouts/_l-avatarContainer.scss";
 @import "layouts/_l-fixedBottom.scss";
 @import "layouts/_l-fullPage.scss";
 @import "layouts/_l-stats.scss";
 @import "layouts/_l-mainImg.scss";
+@import "layouts/_l-icon.scss";
 
 //Components
+@import "components/avatar";
 @import "components/card";
 @import "components/contentContainer";
 @import "components/footer";

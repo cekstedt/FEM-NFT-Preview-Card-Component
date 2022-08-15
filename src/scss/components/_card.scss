@@ -7,4 +7,15 @@
   overflow: hidden;
   max-width: 300px;
   padding: 25px;
+
+  & a {
+    text-decoration: none;
+    color: $main-heading;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $accent;
+    }
+  }
 }

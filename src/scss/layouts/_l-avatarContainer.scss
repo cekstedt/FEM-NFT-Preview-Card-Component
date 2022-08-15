@@ -1,0 +1,10 @@
+.l-avatarContainer > * {
+  display: inline;
+  vertical-align: middle;
+  font-size: 1rem;
+  font-weight: $fontWeight-thin;
+}
+
+.l-avatarContainer > p {
+  margin-left: 0.75rem;
+}
