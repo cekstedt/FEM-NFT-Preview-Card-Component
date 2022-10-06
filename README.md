@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/cekstedt/nft-preview-card-component)
+- Solution URL: [Github](https://github.com/cekstedt/FEM-NFT-Preview-Card-Component)
 - Live Site URL: [Netlify](https://shimmering-elf-1f58ca.netlify.app/)
 
 ## My process

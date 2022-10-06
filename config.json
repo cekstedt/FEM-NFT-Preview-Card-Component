@@ -1,0 +1,11 @@
+{
+  "name": "NFT Preview Card Component",
+  "repo": "https://github.com/cekstedt/FEM-NFT-Preview-Card-Component",
+  "challenger": "Frontend Mentor",
+  "challenge page": "https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U",
+  "hosted": "https://shimmering-elf-1f58ca.netlify.app/",
+  "original": false,
+  "personal": false,
+  "thumbnail": "thumbnail.png",
+  "technologies": ["html", "css", "oocss", "sass", "npm-scripts"]
+}
